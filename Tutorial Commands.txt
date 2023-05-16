@@ -21,3 +21,7 @@ $ ls ---> list show
 
 $ touch error.log ---> Create a file
 $ touch .gitignore ---> Create a .gitignore file. Then mention the name of file inside '.gitignore' file that you want to ignore in git tracker.
+
+*.log
+dir\
+\dir\
