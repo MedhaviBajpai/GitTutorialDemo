@@ -14,6 +14,8 @@ $ git rm --cached Demo.pptx
 $ git commit -m "Initial Commit"
 $ git add "Tutorial Commands.txt"
 $ git restore --staged "Commands.txt"
+$ git diff ---> Compares the working directory with staging area in Git.
+$ git commit -a -m "Direct Commit" ---> Skipping the staging area and doing direct commit. The untracked files will not be committed.
 
 $ git clone https://github.com/tensorflow/tensorflow.git
 $ pwd ---> present working directory
