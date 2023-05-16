@@ -1,0 +1,23 @@
+$ git config --global user.name "Medhavi"
+$ git config --global user.email "medhavibajpai29@gmail.com"
+$ git config --list
+$ git config user.name
+$ git config user.email
+$ exit
+
+$ git status
+$ git init ---> initializes a git repo for first time
+$ rm -rf .git ---> Removes git repository
+
+$ git add --a
+$ git rm --cached Demo.pptx
+$ git commit -m "Initial Commit"
+$ git add "Tutorial Commands.txt"
+$ git restore --staged "Commands.txt"
+
+$ git clone https://github.com/tensorflow/tensorflow.git
+$ pwd ---> present working directory
+$ ls ---> list show
+
+$ touch error.log ---> Create a file
+$ touch .gitignore ---> Create a .gitignore file. Then mention the name of file inside '.gitignore' file, that you want to ignore in git tracker.
