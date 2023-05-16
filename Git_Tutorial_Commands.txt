@@ -15,15 +15,15 @@ $ git rm --cached Demo.pptx ---> Removes from tracking. Stage then commit
 
 $ git rm Demo.pptx ---> We can direct commit after this if the previous deleted file was in statging area.
 
-$ git mv "Tutorial Commands.txt" "Git_Tutorial_Commands.txt" ---> Auto-staged and ready to commit.
+$ git mv first.txt rename_second.txt ---> Auto-staged
 
 $ git commit -m "Initial Commit"
 $ git add "Tutorial Commands.txt"
 $ git restore --staged "Commands.txt"
 $ git diff ---> Compares the working directory with staging area in Git.
 $ git commit -a -m "Direct Commit" ---> Skipping the restaging area for modified file and doing direct commit. The untracked files will not be committed.
-$ git commit --amend ---> Change the previous commit message after merge
-$ git clone https://github.com/tensorflow/tensorflow.git  ---> Locally get the repository.
+
+$ git clone https://github.com/tensorflow/tensorflow.git
 $ pwd ---> present working directory
 $ ls ---> list show
 
@@ -33,15 +33,3 @@ $ touch .gitignore ---> Create a .gitignore file. Then mention the name of file 
 *.log
 dir\
 \dir\
-
-$ git log
-$ git log -p
-$ git log -p -3
-$ git log --stat
-$ git log --pretty=oneline
-$ git log --pretty=short
-$ git log --pretty=full
-$ git log --since=2.days
-$ git log --since=2.weeks
-$ git log --since=2.years
-$ git log --pretty=format:"%h -- %an" ---> Apply filter an - Author Name h-- abbreviated hash Commit
