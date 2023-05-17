@@ -19,10 +19,18 @@ $ git mv "Tutorial Commands.txt" "Git_Tutorial_Commands.txt" ---> Auto-staged an
 
 $ git commit -m "Initial Commit"
 $ git add "Tutorial Commands.txt"
+$ git add .
+git restore --staged Tutorial Commands.txt
+
 $ git restore --staged "Commands.txt"
 $ git diff ---> Compares the working directory with staging area in Git.
 $ git commit -a -m "Direct Commit" ---> Skipping the restaging area for modified file and doing direct commit. The untracked files will not be committed.
 $ git commit --amend ---> Change the previous commit message after merge
+
+USING VIM EDITOR :
+Press i to type.
+Press esc+shift+: then press wq! for exiting vim editor.
+
 $ git clone https://github.com/tensorflow/tensorflow.git  ---> Locally get the repository.
 $ pwd ---> present working directory
 $ ls ---> list show
@@ -47,6 +55,4 @@ $ git log --since=2.years
 $ git log --pretty=format:"%h -- %an" ---> Apply filter an - Author Name h-- abbreviated hash Commit
 
 
-USING VIM EDITOR :
-Press i to type.
-Press esc+shift+: then press wq! for exiting vim editor.
+$ git checkout -- Tutorial Commands.txt ---> to inmodify the staged file and bring it back to last commit state.
