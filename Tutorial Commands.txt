@@ -45,3 +45,8 @@ $ git log --since=2.days
 $ git log --since=2.weeks
 $ git log --since=2.years
 $ git log --pretty=format:"%h -- %an" ---> Apply filter an - Author Name h-- abbreviated hash Commit
+
+
+USING VIM EDITOR :
+Press i to type.
+Press esc+shift+: then press wq! for exiting vim editor.
